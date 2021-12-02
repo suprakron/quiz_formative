@@ -21,9 +21,9 @@
             <p class="accuracy_bad">{{ accuracy_formatted }}</p>
         {% endif %}
 
-        <a class="home_button" href="{% url 'quiz:index' %}">Home</a>
+        <a class="home_button" href="{% url 'quiz:index' %}">หน้าแรก</a>
 
-        <a class="home_button" href="{% url 'quiz:single_quiz' quiz.id %}">Try Again</a>
+        <a class="home_button" href="{% url 'quiz:single_quiz' quiz.id %}">ย้อนกลับ</a>
 
     </div>
 
